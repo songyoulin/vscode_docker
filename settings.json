@@ -1,0 +1,31 @@
+{
+    "C_Cpp.formatting": "Disabled",
+    "workbench.colorTheme": "Monokai",
+    "editor.mouseWheelZoom": true,
+    "editor.fontSize": 18,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 120,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "files.exclude": {
+        "**/.vim*": true,
+        "**/.vscode": true
+    },
+    "astyle.cmd_options": [
+        "--style=linux",
+        "--indent=spaces=4",
+        "--convert-tabs",
+        "--align-pointer=name",
+        "--suffix=none",
+        "--max-code-length=200",
+        "--break-after-logical",
+        "-p",
+        "-H",
+        "-U"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true
+}
